@@ -1,5 +1,9 @@
-document.querySelectorAll(".btn").forEach((item) => {
-  item.addEventListener("click", () => {
-    alert("this is really awesome");
-  });
-});
+// learning console
+// console.log("one statement");
+// console.log("one statement");
+// console.log("one statement");
+/*console.log("one statement");
+console.log("one statement");
+console.log("one statement");
+*/
+document.write("hi there");
