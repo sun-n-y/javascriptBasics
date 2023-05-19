@@ -1,29 +1,26 @@
-//variables
+//variables challenge
 
-let name1 = "sunny";
-let adress, zipcode, state;
-adress = "101";
-zipcode = "30720";
-state = "GA";
-adress = "as";
+let firstName, last_name, address, street, country;
 
-// console.log(adress);
-// console.log(state);
-// console.log(adress, state, zipcode);
+firstName = "sunny";
+last_name = "delight";
+address = "main streert";
 
-let Random123_$ = "random";
+console.log(address);
 
-console.log(Random123_$);
+address = "first street";
 
-// var
-var value = "some value";
-// let
-let name2 = "some name";
-name2 = "some name2";
-// const
-const lastName = "jordan";
-lastName = "jordan23";
+console.log(firstName);
+console.log(last_name);
+console.log(address);
 
-console.log(value);
-console.log(name2);
-console.log(lastName);
+street = "manley street";
+country = " usa";
+
+let fullMailingAdress = street + country;
+
+console.log(fullMailingAdress);
+
+const first_number = "1";
+
+console.log(first_number);
