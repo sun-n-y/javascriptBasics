@@ -1,12 +1,7 @@
-// string concatenation
+// string concatenation challenge
 
-// const name1 = "john";
-// const lastName = "doe";
-// let fullName = name1 + " " + lastName;
+const street = 'manley street';
+const country = 'usa';
+let fullMailingAddress = street + ' ' + country;
 
-// console.log("my name is: " + fullName);
-
-const website = 'google';
-const url = 'https://www.' + website + '.com';
-
-console.log(url);
+console.log(fullMailingAddress);
