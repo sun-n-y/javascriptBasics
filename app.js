@@ -1,22 +1,19 @@
-// implicit type conversion
+// data types
 
-const name1 = 'john';
-const lastName = 'doe';
-const fullName = name1 + ' ' + lastName;
-console.log(fullName);
+//string
+const text = 'some text';
 
-const number = 4;
-const number2 = 10;
-const result = number + number2;
-console.log(result);
+// number
+const number1 = 45;
 
-const value = name1 - lastName;
-console.log(value);
+//boolean
+let value1 = true;
+let value2 = false;
 
-let number3 = 10;
-let number4 = 23;
+// null
+let result = null;
 
-number4 = 'pants';
+//undefined
+let name1;
 
-result2 = number3 + number4;
-console.log(result2);
+console.log(typeof name1);
