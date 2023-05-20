@@ -1,19 +1,14 @@
-// data types
+// arrays
 
-//string
-const text = 'some text';
+const friend1 = 'ana';
+const friend2 = 'ana';
+const friend3 = 'ana';
+const friend4 = 'ana';
 
-// number
-const number1 = 45;
+const myArrayFriends = [friend1, friend2, friend3, friend4, 10, 'joe'];
 
-//boolean
-let value1 = true;
-let value2 = false;
+console.log(myArrayFriends[7]);
 
-// null
-let result = null;
+myArrayFriends[4] = 'tim';
 
-//undefined
-let name1;
-
-console.log(typeof name1);
+console.log(myArrayFriends);
