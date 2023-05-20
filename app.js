@@ -1,22 +1,22 @@
-// numbers challenge
+// implicit type conversion
 
-const score1 = 98;
-const score2 = 75;
-const score3 = 45;
-let amount = 3;
+const name1 = 'john';
+const lastName = 'doe';
+const fullName = name1 + ' ' + lastName;
+console.log(fullName);
 
-let totalScore = score1 + score2 + score3;
-let average = totalScore / amount;
+const number = 4;
+const number2 = 10;
+const result = number + number2;
+console.log(result);
 
-console.log(totalScore, average);
+const value = name1 - lastName;
+console.log(value);
 
-const plates = 20;
-const people = 7;
+let number3 = 10;
+let number4 = 23;
 
-let remainingPlates = 20 % 7;
+number4 = 'pants';
 
-remainingPlates++;
-
-let msg = 'There are' + ' ' + remainingPlates + ' ' + 'plates avaibale';
-
-console.log(msg);
+result2 = number3 + number4;
+console.log(result2);
