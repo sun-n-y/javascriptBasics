@@ -1,26 +1,12 @@
-//variables challenge
+// string concatenation
 
-let firstName, last_name, address, street, country;
+// const name1 = "john";
+// const lastName = "doe";
+// let fullName = name1 + " " + lastName;
 
-firstName = "sunny";
-last_name = "delight";
-address = "main streert";
+// console.log("my name is: " + fullName);
 
-console.log(address);
+const website = 'google';
+const url = 'https://www.' + website + '.com';
 
-address = "first street";
-
-console.log(firstName);
-console.log(last_name);
-console.log(address);
-
-street = "manley street";
-country = " usa";
-
-let fullMailingAdress = street + country;
-
-console.log(fullMailingAdress);
-
-const first_number = "1";
-
-console.log(first_number);
+console.log(url);
