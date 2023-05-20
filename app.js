@@ -1,43 +1,15 @@
-// functions
+// functions challenge
 
-// function greet(name) {
-//   console.log('Hello there' + name);
-// }
-
-// //greet bob
-// greet(' bob');
-// //greet polo
-// greet(' polo');
-// //greet joes
-// greet(' joes');
-
-// const wallHeight = 80;
-
-// function calculate(value) {
-//   const newValue = value * 2.54;
-//   console.log('The value in cm is: ' + newValue + ' cm');
-//   return newValue;
-// }
-
-// const width = calculate(100);
-// const height = calculate(wallHeight);
-
-// const demensions = [width, height];
-// console.log(demensions);
-
-//function definition/declaration
-function addValues(num1, num2) {
-  return num1 + num2;
-}
-
-const firstValue = addValues(3, 4);
-const secondValue = addValues(12, 34);
-
-const add = function (num1, num2) {
-  return num1 + num2;
+const calculateTotal = function (subTotal, tax) {
+  //   const total = subTotal + tax;
+  //   return total;
+  return subTotal + tax;
 };
 
-const thirdValue = add(5, 6);
+// console.log(calculateTotal(10, 5));
 
-const values = [firstValue, secondValue, thirdValue];
-console.log(values);
+const order1 = calculateTotal(100, 10);
+const order2 = calculateTotal(50, 5);
+const order3 = calculateTotal(25, 5);
+
+console.log(order1, order2, order3);
