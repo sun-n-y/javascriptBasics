@@ -15,7 +15,6 @@ const car = {
 };
 
 console.log(car.make);
-
 console.log(car.colors[0]);
 
 car.drive();
