@@ -87,8 +87,9 @@ total[subject] = 'some value';
 const survey = students.reduce(function (acc, curr) {
   //   console.log(curr.favoriteSubject);
   const favSubject = curr.favoriteSubject;
-  if (acc[favSubject]) acc[favSubject] = acc[favSubject] + 1;
-  else {
+  if (acc[favSubject]) {
+    acc[favSubject] = acc[favSubject] + 1;
+  } else {
     acc[favSubject] = 1;
   }
   return acc;
