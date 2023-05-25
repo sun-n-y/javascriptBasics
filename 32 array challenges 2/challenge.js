@@ -54,26 +54,44 @@
 
 // console.log(averageScore);
 
-//reduce 2
-//square bracket notation
+// //reduce 2
+// //square bracket notation
+
+// const subject = 'math';
+
+// //creating a new object with name of total
+// const total = {};
+
+// total[subject] = 'some value';
+// // console.log(total);
+
+// const survey = students.reduce(function (survey, student) {
+//   //   console.log(student.favoriteSubject);
+//   const favSubject = student.favoriteSubject;
+//   if (survey[favSubject]) {
+//     survey[favSubject]++;
+//   } else {
+//     survey[favSubject] = 1;
+//   }
+//   return survey;
+// }, {});
+
+// console.log(survey);
+//reduce 3
 
 const subject = 'math';
-
-//creating a new object with name of total
 const total = {};
-
 total[subject] = 'some value';
 // console.log(total);
 
-const survey = students.reduce(function (survey, student) {
-  //   console.log(student.favoriteSubject);
-  const favSubject = student.favoriteSubject;
-  if (survey[favSubject]) {
-    survey[favSubject]++;
-  } else {
-    survey[favSubject] = 1;
+const survey = students.reduce(function (acc, curr) {
+  //   console.log(curr.favoriteSubject);
+  const favSubject = curr.favoriteSubject;
+  if (acc[favSubject]) acc[favSubject] = acc[favSubject] + 1;
+  else {
+    acc[favSubject] = 1;
   }
-  return survey;
+  return acc;
 }, {});
 
 console.log(survey);
